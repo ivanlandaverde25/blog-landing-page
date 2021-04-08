@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+.mg{
+    margin-top: 5em;
+}
+
 .title-description {
   color: var(--Very-dark-blue);
   font-family: "Overpass", sans-serif;
@@ -15,8 +19,8 @@
 }
 
 .description-editor {
-  margin-top: 2.0em;
-  margin-bottom: 2.3em;
+  margin-top: 1.9em;
+  margin-bottom: 1.9em;
 }
 
 .text-description {
@@ -24,4 +28,47 @@
   line-height: 1.8em;
   margin-bottom: 1em;
   font-size: 17px;
+}
+
+.phone-description{
+    position: relative;
+    overflow: visible;
+    min-height: 64vh;
+    margin-top: 14.7em;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 95px;
+    background: url(../images/bg-pattern-circles.svg) top -210px center/cover no-repeat, var(--Very-dark-gray-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    color: var(--White);
+    font-family: 'Overpass', sans-serif;
+}
+
+.phone-img{
+    width: 350px;
+    position: absolute;
+    top: -175px;
+}
+
+.phone-description-text{
+    padding-top: 4em;
+    width: 90%;
+    margin: auto;
+}
+
+.phone-description-text h1{
+    margin: .6em 0px;
+}
+
+.phone-description-text p{
+    line-height: 1.6em;
+    color: var(--Grayish-blue);
+}
+
+.laptop-img{
+    margin-top: 3em;
+    margin-bottom: 2em;
 }

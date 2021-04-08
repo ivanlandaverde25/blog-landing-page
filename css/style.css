@@ -11,10 +11,9 @@
   box-sizing: border-box;
 }
 
-.container {
+.wrapper {
   width: 90%;
   margin: auto;
-  margin-top: 5em;
   overflow: hidden;
 }
 
