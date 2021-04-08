@@ -11,6 +11,7 @@ window.onload = () =>{
     const iconArrow1 = document.getElementById('icon-arrow1');
     const iconArrow2 = document.getElementById('icon-arrow2');
     const iconArrow3 = document.getElementById('icon-arrow3');
+    const itemClose = document.getElementById('item-close');
 
     menu.addEventListener('click', () => {
         menu.style.display = 'none';
@@ -24,17 +25,25 @@ window.onload = () =>{
         menu.style.display = 'block';
         menuClose.style.display = 'none';
     });
-
+    
     menuItem1.addEventListener('click', () => {
         iconArrow1.classList.toggle('rotate');
+        menuItem1.classList.toggle('menu-item1-active');
     });
     
     menuItem2.addEventListener('click', () => {
         iconArrow2.classList.toggle('rotate');
+        menuItem2.classList.toggle('menu-item2-active');
     });
-
+    
     menuItem3.addEventListener('click', () => {
         iconArrow3.classList.toggle('rotate');
         menuItem3.classList.toggle('menu-item3-active');
+    });
+    
+    itemClose.addEventListener('click', () => {
+        menuList.classList.remove('menu-list-trans');
+        menu.style.display = 'block';
+        menuClose.style.display = 'none';
     });
 };

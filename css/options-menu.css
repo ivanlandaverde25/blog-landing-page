@@ -1,0 +1,132 @@
+/* ESTILOS DEL MENU MOVIL */
+.menu-list {
+  font-family: "Overpass", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  position: fixed;
+  width: 90%;
+  margin: auto;
+  background: var(--White);
+  border-radius: 5px;
+  top: -1125px;
+  text-align: center;
+  transition: 1s 0.1s all ease;
+  z-index: 1000;
+  min-height: 400px;
+}
+
+/* CLASE PARA HACER APARECER EL MENU MOVIL */
+.menu-list-trans {
+  top: 125px;
+}
+
+/* ESTILO DE LAS OPCIONES DE LISTA */
+.menu-list li {
+  padding: 1em 0px;
+  list-style: none;
+}
+
+.menu-list li:last-of-type {
+  padding-bottom: 1.5em;
+}
+
+.menu-list li:first-of-type {
+  padding-top: 1.5em;
+}
+
+/* OCULTAR X PARA CERRAR MENU */
+.menu-close {
+  display: none;
+}
+
+/* ROTACION DE FLECHA DE OPCIONES */
+.icon-arrow {
+  transition: 0.8s 0.1s all ease;
+}
+
+.rotate {
+  transform: rotateZ(180deg);
+}
+
+/* ESTILOS DE LOS 3 PRIMEROS LISTADO PRINCIPALES DEL MENU */
+.menu-item {
+  overflow: hidden;
+  height: 57px;
+  transition: 0.8s 0.1s all ease;
+}
+
+/* OPCIONES DE LAS ANCLASE DE LOS 3 MENU */
+.menu-item .options ul li:first-of-type {
+  padding-top: 30px;
+}
+
+.menu-item .options ul li:last-of-type {
+  padding-bottom: 30px;
+}
+
+.menu-item .options ul li {
+  padding: 10px;
+}
+
+.menu-item .options ul li a {
+  color: var(--Very-dark-blue);
+}
+
+/* OPCIONES DE ITEM 1 */
+.item1-options {
+  width: 90%;
+  margin: auto;
+  margin-top: 18px;
+  background: rgb(243, 243, 243);
+}
+
+.menu-item1-active {
+  height: 330px;
+}
+
+/* OPCION DEL ITEM 2 */
+.item2-options {
+  width: 90%;
+  margin: auto;
+  margin-top: 18px;
+  background: rgb(243, 243, 243);
+}
+
+.menu-item2-active {
+  height: 275px;
+}
+
+/* OPCIONES DE ITEM 3 */
+.item3-options {
+  width: 90%;
+  margin: auto;
+  margin-top: 18px;
+  background: rgb(243, 243, 243);
+}
+
+.menu-item3-active {
+  height: 235px;
+}
+
+/* ESTILOS DE BOTONES DEL MENU */
+.buttons-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons-menu button {
+  display: block;
+  margin: 10px 0px;
+}
+
+/* ESTILO DE LAS ANCLAS */
+.menu-list li a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-list li a:active {
+  text-decoration: underline;
+}
