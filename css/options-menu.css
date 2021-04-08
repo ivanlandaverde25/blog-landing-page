@@ -53,8 +53,16 @@
   overflow: hidden;
   height: 57px;
   transition: 0.8s 0.1s all ease;
+
 }
 
+.menu-item a{
+    cursor: pointer;
+}
+
+.menu-item a:hover{
+    text-decoration: underline;
+}
 /* OPCIONES DE LAS ANCLASE DE LOS 3 MENU */
 .menu-item .options ul li:first-of-type {
   padding-top: 30px;
@@ -70,6 +78,10 @@
 
 .menu-item .options ul li a {
   color: var(--Very-dark-blue);
+}
+
+.menu-item .options ul li a:hover{
+    text-decoration: underline;
 }
 
 /* OPCIONES DE ITEM 1 */
