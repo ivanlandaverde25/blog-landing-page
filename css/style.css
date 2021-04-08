@@ -10,6 +10,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .wrapper {
@@ -20,6 +21,12 @@
 
 .is-hidden {
   display: none !important;
+}
+
+hr{
+    width: 90%;
+    margin: 1em auto;
+
 }
 
 :root {

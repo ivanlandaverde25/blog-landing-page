@@ -21,6 +21,108 @@ header{
     cursor: pointer;
 }
 
+.menu-list{
+    font-family: 'Overpass', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    position: fixed;
+    width: 90%;
+    margin: auto;
+    background: var(--White);
+    border-radius: 5px;
+    top: -1125px;
+    text-align: center;
+    transition: 1s .1s all ease;
+    z-index: 1000;
+    min-height: 400px;
+}
+
+.menu-close{
+    display: none;
+}
+
+.icon-arrow{
+    transition: .8s .1s all ease;
+}
+
+.rotate{
+    transform: rotateZ(180deg);
+}
+
+.menu-item3{
+    overflow: hidden;
+    height: 57px;
+    transition: .8s .1s all ease;
+}
+
+.menu-item3 .item3-options ul li:first-of-type{
+    padding-top:30px;
+}
+
+.menu-item3 .item3-options ul li:last-of-type{
+    padding-bottom:30px;
+}
+
+.menu-item3 .item3-options ul li{
+    padding: 10px;
+    
+}
+
+.menu-item3 .item3-options ul li a{
+    color: var(--Very-dark-blue);
+}
+
+.item3-options{
+    width: 90%;
+    margin: auto;
+    margin-top: 18px;
+    background: rgb(243, 243, 243);
+}
+
+.menu-item3-active{
+    height:235px;
+}
+
+.buttons-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-menu button{
+    display: block;
+    margin: 10px 0px;
+}
+
+.menu-list li a:active{
+    text-decoration: underline;
+}
+
+.menu-list li:first-of-type{
+    padding-top: 1.5em;
+}
+
+.menu-list li{
+    padding: 1em 0px;
+}
+
+.menu-list li:last-of-type{
+    padding-bottom: 1.5em;
+}
+.menu-list-trans{
+    top: 125px;
+}
+
+.menu-list li{
+    list-style: none;
+}
+
+.menu-list li a{
+    text-decoration: none;
+    color: black;
+}
+
 .hero{
     position: relative;
     text-align: center;
