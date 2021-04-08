@@ -4,6 +4,7 @@
 /* CSS IMPORT */
 @import url(./menu.css);
 @import url(./description.css);
+@import url(./footer.css);
 
 * {
   padding: 0;
