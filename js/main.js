@@ -11,11 +11,14 @@ window.onload = () =>{
     const iconArrow1 = document.getElementById('icon-arrow1');
     const iconArrow2 = document.getElementById('icon-arrow2');
     const iconArrow3 = document.getElementById('icon-arrow3');
-    const itemClose = document.getElementById('item-close');
+    const itemClose = document.querySelectorAll('.item-close');
+
+    console.log(itemClose)
 
     menu.addEventListener('click', () => {
         menu.style.display = 'none';
         menuClose.style.display = 'block';
+        menuClose.style.cursor = 'pointer';
         menuList.style.display = 'block';
         menuList.classList.add("menu-list-trans");
     });

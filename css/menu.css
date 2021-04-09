@@ -15,6 +15,7 @@ header{
 
 .logo{
     width: 80px;
+    filter: drop-shadow(2px 2px 2px);
 }
 
 .menu-hamburguer{
@@ -47,6 +48,8 @@ header{
     display: flex;
     justify-content: space-around;
     padding: 0px 20px;
+    width: 350px;
+    margin: 0 auto;
 }
 
 .btn{

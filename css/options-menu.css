@@ -5,6 +5,7 @@
   font-size: 17px;
   position: fixed;
   width: 90%;
+  left: 5%;
   margin: auto;
   background: var(--White);
   border-radius: 5px;
@@ -13,11 +14,12 @@
   transition: 1s 0.1s all ease;
   z-index: 1000;
   min-height: 400px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.6);
 }
 
 /* CLASE PARA HACER APARECER EL MENU MOVIL */
 .menu-list-trans {
-  top: 125px;
+  top: 130px;
 }
 
 /* ESTILO DE LAS OPCIONES DE LISTA */
@@ -80,7 +82,7 @@
   color: var(--Very-dark-blue);
 }
 
-.menu-item .options ul li a:hover{
+.menu-item .options ul li a:focus{
     text-decoration: underline;
 }
 
@@ -126,11 +128,24 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 1em;
 }
 
 .buttons-menu button {
   display: block;
   margin: 10px 0px;
+}
+
+.btn-login{
+  border: 2px solid red;
+  color: #000;
+  border: 1px solid var(--Very-dark-black-blue);
+}
+
+.btn-sign{
+  border: none;
+  color: var(--White);
+  background: linear-gradient(to right, var(--Very-light-red), var(--Light-red));
 }
 
 /* ESTILO DE LAS ANCLAS */
@@ -142,3 +157,4 @@
 .menu-list li a:active {
   text-decoration: underline;
 }
+
